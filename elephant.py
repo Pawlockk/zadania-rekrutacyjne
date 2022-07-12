@@ -119,3 +119,21 @@ def queries():
     print(jsonik)
     print("processed query 1.3.3")
     conn.commit()
+
+def update_tables():
+  try:
+    pg.execute("UPDATE film SET length = 97, language = 'polish' WHERE id=2")
+  except Exception as e:
+    print("unable to update 'film' \n reason: {}".format(e))
+  else:
+    print("updated 'film'")
+    conn.commit()
+
+def delete():
+  try:
+    pg.execute("DELETE FROM film WHERE id=1")
+  except Exception as e:
+    print("unable to delete row in 'film' \n reason: {}".format(e))
+  else:
+    print("deleted row in 'film'")
+    conn.commit()
