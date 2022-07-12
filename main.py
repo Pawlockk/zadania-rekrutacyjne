@@ -10,5 +10,6 @@ time.sleep(2) #sleep po to, że baza nie istnieje w momencie próby połączenia
 
 connect(db_name)
 
+create_tables()
 
 
