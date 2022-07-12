@@ -12,4 +12,6 @@ connect(db_name)
 
 create_tables()
 
+fill_tables()
+
 

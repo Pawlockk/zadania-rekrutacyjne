@@ -60,12 +60,10 @@ def create_tables():
     print("created table film")
     conn.commit()
 
-############################################ create_tables ############################################
+############################################ fill_tables ############################################
 def fill_tables():
   try:
-    pg.execute("INSERT INTO client(id,name,last_name,zip_code) VALUES (1,'Patryk','Kowalski','52-856')")
-    pg.execute("INSERT INTO client(id,name,last_name,zip_code) VALUES (2,'Maria','Kowalska','52-856')")
-    pg.execute("INSERT INTO client(id,name,last_name,zip_code) VALUES (3,'Patryk','Nowak','62-718')")
+    pg.execute("INSERT INTO client(id,name,last_name,zip_code) VALUES (1,'Patryk','Kowalski','52-856'), (2,'Maria','Kowalska','52-856'), (3,'Patryk','Nowak','62-718')")
   except Exception as e:
     print("unable to insert values into 'client' \n reason: {}".format(e))
   else:
@@ -73,8 +71,7 @@ def fill_tables():
     conn.commit()
 
   try:
-    pg.execute("INSERT INTO address(id,country,city,street,number,zip_code) VALUES (1,'Poland','Warszawa','Miejska',26,'52-856')")
-    pg.execute("INSERT INTO address(id,country,city,street,number,zip_code) VALUES (2,'Poland','Poznań','Owcza',75,'62-718')")
+    pg.execute("INSERT INTO address(id,country,city,street,number,zip_code) VALUES (1,'Poland','Warszawa','Miejska',26,'52-856'), (2,'Poland','Poznań','Owcza',75,'62-718')")
   except Exception as e:
     print("unable to insert values into 'address' \n reason: {}".format(e))
   else:
@@ -82,8 +79,7 @@ def fill_tables():
     conn.commit()
 
   try:
-    pg.execute("INSERT INTO film(id,name,category,length,language) VALUES (1,'Inside Man','Thriller',129,'english')")
-    pg.execute("INSERT INTO film(id,name,category,length,language) VALUES (2,'The Sandman','Horror',112,'english')")
+    pg.execute("INSERT INTO film(id,name,category,length,language) VALUES (1,'Inside Man','Thriller',129,'english'), (2,'The Sandman','Horror',112,'english')")
   except Exception as e:
     print("unable to insert values into 'film' \n reason: {}".format(e))
   else:
