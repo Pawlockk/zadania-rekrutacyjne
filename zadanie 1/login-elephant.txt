@@ -1,4 +1,7 @@
-nie pomyślałem, że korzystając z zewnętrznego przecież trzeba będzie się zalogować, żeby zobaczyć efekty, jako, że to darmówka na której czasami tylko testuje to moge podać hasło
+nie pomyślałem, że korzystając z zewnętrznego przecież trzeba będzie się zalogować, żeby zobaczyć efekty,
+jako, że to darmówka na której czasami tylko testuje to moge podać hasło
+
+elephant_key env = 691c1dd5-39bd-4a9e-b67f-8d51ec0bf402
 
 mail: dawid_pawlak@outlook.com
 hasło: welastic123
