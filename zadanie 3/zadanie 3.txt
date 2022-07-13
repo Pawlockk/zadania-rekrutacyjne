@@ -1,0 +1,2 @@
+nie wiem do końca w jakiej formie mam to zaproponować,
+ale skorzystałbym z biblioteki boto3
