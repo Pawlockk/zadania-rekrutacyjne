@@ -1,0 +1,5 @@
+nie pomyślałem, że korzystając z zewnętrznego przecież trzeba będzie się zalogować, żeby zobaczyć efekty, jako, że to darmówka na której czasami tylko testuje to moge podać hasło
+
+mail: dawid_pawlak@outlook.com
+hasło: welastic123
+https://customer.elephantsql.com/instance/
