@@ -1,0 +1,5 @@
+zrobiłbym try catcha,
+czekałem tak długo z odesłaniem tego bo czekałem na pańską odpowiedź i to by może coś zmieniło, ale no to była pierwsza myśl jaka mi przyszła do głowy,
+drugą byłoby sprawdzenie czy połączenie już istnieje i jeśli nie to dopiero wtedy próbuje się połączyć, jednak pobierznie przeglądając api firebase nie zobaczyłem niczego takiego,
+chyba że sprawdzić czy w połączeniu jest już jakiś user i dać if(user==null), ale to byłoby niepewne rozwiązanie, tym bardziej, że nie wiem jak by to wyglądąło w kodzie,
+dlatego pozostaje przy odpowiedzi try catch bo wydaje się najlogiczniejsze
